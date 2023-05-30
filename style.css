@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: outfit;
+    padding: 50px;
+    margin: 50px;
+}
+
+.innerCard {
+    width: 80%;
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow: 0px 20px 50px 15px rgb(4, 4, 31);
+}
+
+.cardPicture {
+    width: 100%;
+    border: 20px solid hsl(216, 50%, 16%);
+    border-radius: 8%;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin: 10px auto 20px 20px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding: 0 10px 5px 10px;
+    margin: 0 auto 10px 10px;
+}
+
+.stat {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+}
+
+.crypto {
+    color: hsl(178, 100%, 50%);
+}
+
+.timeLeft {
+    color: hsl(215, 51%, 70%);
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.prPic {
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px 10px 30px 20px;
+}
+
+.styleName {
+    color: hsl(0, 0%, 100%);
+}
+
+.cardPicture:hover {
+    opacity: 0.3;
+    background: rgba(5, 245, 165, 0.532);
+    background: url('./images/icon-view.svg');
+    background-repeat: no-repeat;
+
+    /* z-index: 1; */
+
+}
+
+h3:hover {
+    color: aqua;
+}
+
+span.styleName:hover {
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
